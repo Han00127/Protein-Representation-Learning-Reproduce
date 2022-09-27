@@ -16,6 +16,11 @@ Pretrained dataset can be downloaded in the following liks:
 For the clarification, we used *Swiss-Prot*(PDB files) for pretraining model.
 
 ## Downstream data 
-Thanks to *Intrinsic-Extrinsic Convolution and Polling for Learning on 3D Protein Structures*, we utilizes the dataset in follwing links
+Thanks to *Intrinsic-Extrinsic Convolution and Polling for Learning on 3D Protein Structures*, we utilizes the dataset in follwing links :
 * Fold classificiation 
 https://drive.google.com/uc?export=download&id=1chZAkaZlEBaOcjHQ3OUOdiKZqIn36qar
+
+* Reaction classification 
+https://drive.google.com/uc?export=download&id=1udP6_90WYkwkvL1LwqIAzf9ibegBJ8rI
+
+
