@@ -1,3 +1,3 @@
 # Geometric-Structure-based-Protein-Representation-Learning
 
-This is for 2nd coding test for kakao brain. 
+This is the unofficial code of the arxiv paper <i>Protein Representation Learning by Geometric Structure Pretraining <\i>
