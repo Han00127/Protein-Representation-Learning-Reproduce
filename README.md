@@ -11,16 +11,29 @@ Please check dependency in yaml file and install with the following command:
 
 Pretrained dataset can be downloaded in the following liks:
 
-  https://alphafold.ebi.ac.uk/download
+https://alphafold.ebi.ac.uk/download
   
 For the clarification, we used *Swiss-Prot*(PDB files) for pretraining model.
 
 ## Downstream data 
 Thanks to *Intrinsic-Extrinsic Convolution and Polling for Learning on 3D Protein Structures*, we utilizes the dataset in follwing links :
 * Fold classificiation 
+
 https://drive.google.com/uc?export=download&id=1chZAkaZlEBaOcjHQ3OUOdiKZqIn36qar
 
 * Reaction classification 
+
 https://drive.google.com/uc?export=download&id=1udP6_90WYkwkvL1LwqIAzf9ibegBJ8rI
+
+Once install and unzip all the files, please set the dataset to 
+
+## Train with Multiview constrastive learning 
+
+## Train with Residue type prediction 
+
+## Downstream task 
+* Fold classification 
+* Reaction classification
+
 
 
