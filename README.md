@@ -27,10 +27,11 @@ https://drive.google.com/uc?export=download&id=1chZAkaZlEBaOcjHQ3OUOdiKZqIn36qar
 * Reaction classification 
 
 https://drive.google.com/uc?export=download&id=1udP6_90WYkwkvL1LwqIAzf9ibegBJ8rI
-
-Once install and unzip all the files, please set the dataset to 
+ 
 
 Note that my codes are not taking the data path as training argument. Please make sure that data path corretly set to saved data directory.
+
+## Download pretrained model weight
 
 ## Train with Multiview constrastive learning 
 
