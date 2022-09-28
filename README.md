@@ -29,7 +29,8 @@ https://drive.google.com/uc?export=download&id=1chZAkaZlEBaOcjHQ3OUOdiKZqIn36qar
 https://drive.google.com/uc?export=download&id=1udP6_90WYkwkvL1LwqIAzf9ibegBJ8rI
  
 
-Note that my codes are not taking the data path as training argument. Please make sure that data path corretly set to saved data directory.
+### Note that my codes are not taking the data path as training argument. Please make sure that data path corretly set to saved data directory.
+### Please make sure that setting the correct data path in the code. 
 
 ## Download pretrained model weight
 
@@ -63,7 +64,7 @@ https://drive.google.com/drive/folders/1vozsHqYyBoGLhCI0GmqBipqYspd3U8t6?usp=sha
 
             python self_training_type1.py --num_worker 14 --save_path /data/project/rw/codingtest/saved_info/temp3/ --filename residue_type_pred_v1 --model_type v1 --resume True --resume_path check point (/data/project/rw/codingtest/saved_info/temp2/residue_pred_v1_ckps_1.pt)
 
-* Based V1 message function training 
+* Based V2 message function training 
 
             python self_training_type1.py --num_worker 14 --save_path where you want to save --filename save file name --model_type v2
             
@@ -73,6 +74,8 @@ https://drive.google.com/drive/folders/1vozsHqYyBoGLhCI0GmqBipqYspd3U8t6?usp=sha
 
 ## Downstream task 
 According to the paper, downstream task batch should 2 per GPU. I strongly recommend to use 4 GPU. 
+Also, my codes automatically tries to load self-trained model at the initial step. Please set to the "multive_pretrained_epoch33.pt" in the correct saved path.
+
 * Fold classification 
     * train 
         For V1 model with decoder 1
@@ -103,8 +106,13 @@ According to the paper, downstream task batch should 2 per GPU. I strongly recom
          
              python fine_tune_fold.py --test True --resume_path ./modelweight/exp3.pt --model_type v1 --decoder_pooling True
 * Reaction classification
-    * train 
-    * test 
-
+    * train & test
+    This is same setting with above fine tune fold task. 
+   
+        python fine_tune_reaction.py --save_path /data/project/rw/codingtest/saved_info/temp4/fold_task/ --model_type v2 --decoder_pooling True
+        
+        python fine_tune_fold.py --test True --resume_path ./modelweight/exp2.pt --model_type v1 
+ 
+I would appreciate if you found error. Please contact me via email address 구일kthan@gmail.com
 
 
