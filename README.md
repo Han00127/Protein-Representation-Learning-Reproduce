@@ -15,6 +15,12 @@ Please uses 4 GPU if you are available.
 Pretrained dataset can be downloaded in the following liks:
 
 https://alphafold.ebi.ac.uk/download
+
+
+![954248D8-CA9C-4E1C-ACFD-77C1B56E2119](https://user-images.githubusercontent.com/93216105/192761958-fe5fae54-72b3-479d-a77d-81c8bf86f42c.png)
+
+
+protein dir contains raw pdb data, processed processed graph data and raw contains the text file that name of raw pdb files.
   
 For the clarification, we used *Swiss-Prot*(PDB files) for pretraining model.
 
@@ -24,7 +30,13 @@ Thanks to *Intrinsic-Extrinsic Convolution and Polling for Learning on 3D Protei
 
 https://drive.google.com/uc?export=download&id=1chZAkaZlEBaOcjHQ3OUOdiKZqIn36qar
 
+![51AA4D5D-7E1E-4A3E-9AB2-86B614522697](https://user-images.githubusercontent.com/93216105/192762759-a4ca35fe-c737-406a-aa0d-b9426bd1b4b4.png)
+
 * Reaction classification 
+
+![6CDFB5F1-BE34-4B3B-9A08-B11299503751](https://user-images.githubusercontent.com/93216105/192762936-706b2ce7-3cd3-41ee-b2f4-e8bfb96c0efc.png)
+
+
 
 https://drive.google.com/uc?export=download&id=1udP6_90WYkwkvL1LwqIAzf9ibegBJ8rI
  
