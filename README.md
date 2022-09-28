@@ -86,7 +86,7 @@ https://drive.google.com/drive/folders/1vozsHqYyBoGLhCI0GmqBipqYspd3U8t6?usp=sha
 
 ## Downstream task 
 According to the paper, downstream task batch should 2 per GPU. I strongly recommend to use 4 GPU. 
-Also, my codes automatically tries to load self-trained model at the initial step. Please set to the "multive_pretrained_epoch33.pt" in the correct saved path.
+Also, my codes automatically tries to load self-trained model weight at the initial step. Please set to the "multive_pretrained_epoch33.pt" in the correct saved path.
 
 * Fold classification 
     * train 
