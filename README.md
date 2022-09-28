@@ -33,6 +33,9 @@ Note that my codes are not taking the data path as training argument. Please mak
 
 ## Download pretrained model weight
 
+Download the model weight in following links:
+https://drive.google.com/drive/folders/1vozsHqYyBoGLhCI0GmqBipqYspd3U8t6?usp=sharing
+
 ## Train with Multiview constrastive learning 
 
 * Based V1 message function training
