@@ -11,8 +11,6 @@ It mainly consists of pretraining modules and GeomEtry-Aware Relational graph co
 ### GearNet-Edge 
 ![88650252-9B16-4E7E-9CFC-C6970825C107](https://user-images.githubusercontent.com/93216105/192925794-7152316f-74a7-4aab-978f-3dbf1a8d0080.png)
 
-
-
 ### installation requirements
 Please check dependency in yaml file and install with the following command:
 
@@ -98,6 +96,14 @@ https://drive.google.com/drive/folders/1vozsHqYyBoGLhCI0GmqBipqYspd3U8t6?usp=sha
 ## Downstream task 
 According to the paper, downstream task batch should 2 per GPU. I strongly recommend to use 4 GPU. 
 Also, my codes automatically tries to load self-trained model weight at the initial step. Please set to the "multive_pretrained_epoch33.pt" in the correct saved path.
+
+### Architecture 
+Notes that V2 model is not pretrained yet. But I conducts experiments as following architectures in fold classifciation.
+Experiments 1 & 2. 
+![66A975F0-583E-4E9D-85B4-8DC9A8EFC719](https://user-images.githubusercontent.com/93216105/192926192-679d20ba-d22c-4647-b940-c4a2c9d91a2b.png)
+
+Experiments 3 & 4
+![6693DC61-6031-4C7A-BAB2-1D4CA2170492](https://user-images.githubusercontent.com/93216105/192926523-506715a8-532d-4dc4-bfd7-e77936ad5c05.png)
 
 * Fold classification 
     * train 
