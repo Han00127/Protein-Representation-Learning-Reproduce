@@ -98,12 +98,8 @@ According to the paper, downstream task batch should 2 per GPU. I strongly recom
 Also, my codes automatically tries to load self-trained model weight at the initial step. Please set to the "multive_pretrained_epoch33.pt" in the correct saved path.
 
 ### Architecture 
-Notes that V2 model is not pretrained yet. But I conducts experiments as following architectures in fold classifciation.
-Experiments 1 & 2. 
-![66A975F0-583E-4E9D-85B4-8DC9A8EFC719](https://user-images.githubusercontent.com/93216105/192926192-679d20ba-d22c-4647-b940-c4a2c9d91a2b.png)
-
-Experiments 3 & 4
-![6693DC61-6031-4C7A-BAB2-1D4CA2170492](https://user-images.githubusercontent.com/93216105/192926523-506715a8-532d-4dc4-bfd7-e77936ad5c05.png)
+Notes that V2 model is not pretrained yet and I validate architectures in fold classifciation task with follwoing configuration.
+![B81573EC-2146-4B0D-8E6F-A09D16AA089D](https://user-images.githubusercontent.com/93216105/192926927-1d0e33f7-3063-4fd5-bc71-f12a2ef5f595.png)
 
 * Fold classification 
     * train 
