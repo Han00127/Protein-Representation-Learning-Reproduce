@@ -9,8 +9,7 @@ It mainly consists of pretraining modules and GeomEtry-Aware Relational graph co
 ![F84AA310-126C-4C16-BFD4-26081140A2E1](https://user-images.githubusercontent.com/93216105/192913429-ef56a5de-5ddb-454b-953a-4f781cf3f0e9.png)
 
 ### GearNet-Edge 
-![3F8379D4-B5BF-40B5-91E0-CB055D19AEF4](https://user-images.githubusercontent.com/93216105/192913740-84289d3f-c0b8-4b0c-bd68-f09e1968fbb1.png)
-
+![88650252-9B16-4E7E-9CFC-C6970825C107](https://user-images.githubusercontent.com/93216105/192925794-7152316f-74a7-4aab-978f-3dbf1a8d0080.png)
 
 
 
