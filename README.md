@@ -2,6 +2,18 @@
 
 This is the unofficial code of the arxiv paper *Protein Representation Learning by Geometric Structure Pretraining* published by *Zhang, Zuobai, et al*.
 
+
+It mainly consists of pretraining modules and GeomEtry-Aware Relational graph convolution network.
+
+### Multivew contrastive learning and 5 types of self-prediction modules
+![F84AA310-126C-4C16-BFD4-26081140A2E1](https://user-images.githubusercontent.com/93216105/192913429-ef56a5de-5ddb-454b-953a-4f781cf3f0e9.png)
+
+### GearNet-Edge 
+![3F8379D4-B5BF-40B5-91E0-CB055D19AEF4](https://user-images.githubusercontent.com/93216105/192913740-84289d3f-c0b8-4b0c-bd68-f09e1968fbb1.png)
+
+
+
+
 ### installation requirements
 Please check dependency in yaml file and install with the following command:
 
